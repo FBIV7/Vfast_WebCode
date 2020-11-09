@@ -86,19 +86,53 @@ h2 {
   height: 550px;
   object-fit: cover;
 }
-.alice-carousel__prev-btn-wrapper {
-  display: none;
-}
-.alice-carousel__next-btn-wrapper {
-  display: none;
-}
-.alice-carousel__dots {
-  display: none;
-}
+
 .text {
   color: white;
 }
 a:hover,
 a:focus {
   color: white;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .responsive-slider {
+    width: 100%;
+    height: 220px;
+  }
+  .image-responsive {
+    width: 100%;
+    height: 220px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 765px) {
+  .responsive-slider {
+    width: 100%;
+    height: 300px;
+  }
+  .image-responsive {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 766px) and (max-width: 1199px) {
+  .responsive-slider {
+    width: 100%;
+    height: 500px;
+  }
+  .image-responsive {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .responsive-slider {
+    width: 100%;
+    height: 630px;
+  }
+  .image-responsive {
+    width: 100%;
+    height: 630px;
+  }
 }

@@ -48,7 +48,7 @@ class Slider extends React.Component {
         autoPlay={3000}
         infinite={true}
         offset={0}
-        itemWidth={1200}
+        // itemWidth={1400}
         clickToChange
         centered
       >
