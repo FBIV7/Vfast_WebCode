@@ -8,9 +8,9 @@ function Footer() {
         <div className="row">
           {/* col col-sm-3umn1 */}
           <div className=" col-sm-4 col-md-3 ">
-            <h5>
+            <h4>
               <strong>Quick Links</strong>
-            </h5>
+            </h4>
             <h6 className="list-unstyled">
               <li>Rating & Review</li>
               <li>Career With Us</li>
@@ -21,9 +21,9 @@ function Footer() {
           </div>
           {/* col col-sm-3umn2 */}
           <div className=" col-sm-4 col-md-3">
-            <h5>
+            <h4>
               <strong>Terms & Policy</strong>
-            </h5>
+            </h4>
             <ul className="list-unstyled">
               <li>Terms & Conditions</li>
               <li>Privacy Policy</li>
