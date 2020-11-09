@@ -22,16 +22,16 @@ class Slider extends React.Component {
         clickToChange
         centered
       >
-        <img src={slider1} className="image-responsive" />
-        <img src={slider2} className="image-responsive" />
-        <img src={slider3} className="image-responsive" />
-        <img src={slider4} className="image-responsive" />
-        <img src={slider5} className="image-responsive" />
-        <img src={slider6} className="image-responsive" />
+        <img src={slider1} alt="img" className="image-responsive" />
+        <img src={slider2} alt="img" className="image-responsive" />
+        <img src={slider3} alt="img" className="image-responsive" />
+        <img src={slider4} alt="img" className="image-responsive" />
+        <img src={slider5} alt="img" className="image-responsive" />
+        <img src={slider6} alt="img" className="image-responsive" />
       </Carousel>
     );
     return (
-      <div _ngcontent-sc1="" id="container">
+      <div id="container">
         <div className="responsive-slider">{sliderImage}</div>
       </div>
     );
