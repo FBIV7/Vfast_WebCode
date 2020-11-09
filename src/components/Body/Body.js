@@ -3,10 +3,10 @@ import "../Style.css";
 const Body = () => {
   return (
     <div className="fontstyle">
-      <div id="container">
-        <section class="m-0">
-          <div class="container ml-auto">
-            <div class="row">
+      <div id="container" style={{marginTop:"22px"}}>
+        <section class="m-0" >
+          <div class="container ml-auto"  >
+            <div class="row" >
               <div class="col-md-6">
                 <h2 className="head">ABOUT US</h2>
                 <p style={{ textAlign: "justify" }}>
@@ -168,17 +168,17 @@ const Body = () => {
                         />
                       </div>
                       <div class="col-md-6" style={{ marginTop: "120px" }}>
-                        <p>
+                        <p style={{ textAlign: "justify" }}>
                           Employees represent a company and thus are an integral
                           part of it. If you will hire the right employees, your
                           company will move in the right direction.
                         </p>
-                        <p>
+                        <p style={{ textAlign: "justify" }}>
                           Since the job market is a bit tight, many candidates
                           lie on the resume and give fake references and may
                           even further provide fraudulent information.
                         </p>
-                        <p>
+                        <p style={{ textAlign: "justify" }}>
                           Thus, it’s an absolute necessity to get employee
                           enrollment and screening done on all candidates before
                           they join your company and become the face of the

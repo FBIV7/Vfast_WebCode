@@ -30,20 +30,20 @@ function Footer() {
             </ul>
           </div>
           {/* col col-sm-3umn3 */}
-          <div className=" col-sm-4 col-md-3">
+          <div className=" col-sm-4 col-md-3 ml-0">
             <h4>
               <strong>Social Links</strong>
             </h4>
-            <ui className="list-unstyled">
+            <ui className="list-unstyled ml-0 hover">
             
-              <a href="https://www.facebook.com/www.vfast.in/"
+              <a className="text col ml-0" href="https://www.facebook.com/www.vfast.in/"
               target="_blank"
               >
               <li>
                 <i class="fab fa-facebook-f "></i> &nbsp; FaceBook
               </li>
               </a>
-              <a href="https://www.instagram.com/vfast.in/?igshid=udh0i53a85ww"
+              <a className="text col ml-0" href="https://www.instagram.com/vfast.in/?igshid=udh0i53a85ww"
               target="_blank"
               >
 
@@ -52,35 +52,35 @@ function Footer() {
               </li>
               </a>
 
-              <a href="https://in.pinterest.com/pin/819444094682129972/"
+              <a className="text col ml-0" href="https://in.pinterest.com/pin/819444094682129972/"
               target="_blank"
               >
 
               <li>
                 
-                <i class="fab fa-pinterest"></i> &nbsp; Pinterest
+                <i class="text fab fa-pinterest"></i> &nbsp; Pinterest
               </li>
               </a>
-              <a href="https://vfastverify.tumblr.com/"
+              <a className="text col ml-0" href="https://vfastverify.tumblr.com/"
               target="_blank"
               >
               <li>
-                <i class="fab fa-tumblr"></i> &nbsp; Tumblr
+                <i class="text fab fa-tumblr"></i> &nbsp; Tumblr
               </li>
               </a>
-              <a href="https://twitter.com/VFAST_IN"
+              <a className="text col ml-0" href="https://twitter.com/VFAST_IN"
               target="_blank"
               >
               
               <li>
-                <i class="fab fa-twitter"></i> &nbsp; Twitter
+                <i class="text fab fa-twitter"></i> &nbsp; Twitter
               </li>
               </a>
-              <a href="https://www.linkedin.com/company/vfast"
+              <a className="text col ml-0" href="https://www.linkedin.com/company/vfast"
               target="_blank"
               >
               <li>
-                <i class="fab fa-linkedin"></i> &nbsp; Linkedin
+                <i class="text fab fa-linkedin"></i> &nbsp; Linkedin
               </li>
               </a>
             </ui>
