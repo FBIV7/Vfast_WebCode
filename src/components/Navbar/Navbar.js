@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <div>
         <BrowserRouter>
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar fixed-top navbar navbar-expand-lg">
             <Link class="navbar-brand" to="/">
               <img className="img" alt="logo" src="../assets/VFast-white.png" />
             </Link>

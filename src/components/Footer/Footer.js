@@ -12,11 +12,11 @@ function Footer() {
               <strong>Quick Links</strong>
             </h4>
             <h6 className="list-unstyled">
-              <li>Rating & Review</li>
-              <li>Career With Us</li>
-              <li>Live Chat</li>
-              <li>FAQ's</li>
-              <li>FeedBack</li>
+              <li className="footer-text">Rating & Review</li>
+              <li className="footer-text">Career With Us</li>
+              <li className="footer-text">Live Chat</li>
+              <li className="footer-text">FAQ's</li>
+              <li className="footer-text">FeedBack</li>
             </h6>
           </div>
           {/* col col-sm-3umn2 */}
