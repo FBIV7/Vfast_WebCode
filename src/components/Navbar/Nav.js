@@ -9,7 +9,7 @@ const NavBar = () => {
         <ReactBootStrap.Navbar
           collapseOnSelect
           expand="xl"
-          bg="#2cfe3"
+          bg="#2c3b4c"
           variant="dark"
           fixed="top"
         >
