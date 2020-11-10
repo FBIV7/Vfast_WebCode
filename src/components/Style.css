@@ -81,11 +81,6 @@ h2 {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-/* .sliderimg {
-  width: 100%;
-  height: 550px;
-  object-fit: cover;
-} */
 
 .text {
   color: white;
@@ -135,4 +130,7 @@ a:focus {
     width: 100%;
     height: 630px;
   }
+}
+a#collasible-nav-dropdown.dropdown-toggle.nav-link::after{
+  display: none;
 }

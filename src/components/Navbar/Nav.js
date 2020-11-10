@@ -26,11 +26,19 @@ const NavBar = () => {
                 </ReactBootStrap.Nav.Link>
               </Link>
 
-              <Link to="/about-us">
-                <ReactBootStrap.Nav.Link href="#features">
-                  About-Us
-                </ReactBootStrap.Nav.Link>
-              </Link>
+            
+              <ReactBootStrap.NavDropdown
+                title="About Us"
+                id="collasible-nav-dropdown"
+              >
+                <ReactBootStrap.NavDropdown.Item href="./vision-mission">
+                  Vision & Mission
+                </ReactBootStrap.NavDropdown.Item>
+
+                <ReactBootStrap.NavDropdown.Item href="./why-us">
+                  Why Us ?
+                </ReactBootStrap.NavDropdown.Item>
+              </ReactBootStrap.NavDropdown>
               <Link to="/contact-us">
                 <ReactBootStrap.Nav.Link href="#pricing">
                   Contact Us
