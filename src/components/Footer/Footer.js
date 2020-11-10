@@ -31,53 +31,66 @@ function Footer() {
               <strong>Social Links</strong>
             </h4>
             <ui className="list-unstyled ml-0 hover">
-            
-              <a className="text col ml-0" href="https://www.facebook.com/www.vfast.in/"
-              target="_blank"  rel="noopener noreferrer"
+              <a
+                className="text col ml-0"
+                href="https://www.facebook.com/www.vfast.in/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              <li>
-                <i class="fab fa-facebook-f "></i> &nbsp; FaceBook
-              </li>
+                <li>
+                  <i class="fab fa-facebook-f "></i> &nbsp; FaceBook
+                </li>
               </a>
-              <a className="text col ml-0" href="https://www.instagram.com/vfast.in/?igshid=udh0i53a85ww"
-              target="_blank"  rel="noopener noreferrer"
+              <a
+                className="text col ml-0"
+                href="https://www.instagram.com/vfast.in/?igshid=udh0i53a85ww"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <li>
+                  <i class="fab fa-instagram"></i> &nbsp; Instagram
+                </li>
+              </a>
 
-              <li>
-                <i class="fab fa-instagram"></i> &nbsp; Instagram
-              </li>
-              </a>
-
-              <a className="text col ml-0" href="https://in.pinterest.com/pin/819444094682129972/"
-              target="_blank" rel="noopener noreferrer"
+              <a
+                className="text col ml-0"
+                href="https://in.pinterest.com/pin/819444094682129972/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-
-              <li>
-                
-                <i class="text fab fa-pinterest"></i> &nbsp; Pinterest
-              </li>
+                <li>
+                  <i class="text fab fa-pinterest"></i> &nbsp; Pinterest
+                </li>
               </a>
-              <a className="text col ml-0" href="https://vfastverify.tumblr.com/"
-              target="_blank" rel="noopener noreferrer"
+              <a
+                className="text col ml-0"
+                href="https://vfastverify.tumblr.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              <li>
-                <i class="text fab fa-tumblr"></i> &nbsp; Tumblr
-              </li>
+                <li>
+                  <i class="text fab fa-tumblr"></i> &nbsp; Tumblr
+                </li>
               </a>
-              <a className="text col ml-0" href="https://twitter.com/VFAST_IN"
-              target="_blank" rel="noopener noreferrer"
+              <a
+                className="text col ml-0"
+                href="https://twitter.com/VFAST_IN"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              
-              <li>
-                <i class="text fab fa-twitter"></i> &nbsp; Twitter
-              </li>
+                <li>
+                  <i class="text fab fa-twitter"></i> &nbsp; Twitter
+                </li>
               </a>
-              <a className="text col ml-0" href="https://www.linkedin.com/company/vfast"
-              target="_blank" rel="noopener noreferrer"
+              <a
+                className="text col ml-0"
+                href="https://www.linkedin.com/company/vfast"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              <li>
-                <i class="text fab fa-linkedin"></i> &nbsp; Linkedin
-              </li>
+                <li>
+                  <i class="text fab fa-linkedin"></i> &nbsp; Linkedin
+                </li>
               </a>
             </ui>
           </div>

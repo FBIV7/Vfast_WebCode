@@ -26,7 +26,6 @@ const NavBar = () => {
                 </ReactBootStrap.Nav.Link>
               </Link>
 
-            
               <ReactBootStrap.NavDropdown
                 title="About Us"
                 id="collasible-nav-dropdown"
