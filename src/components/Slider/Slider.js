@@ -15,7 +15,7 @@ class Slider extends React.Component {
       <Carousel
         slidesPerPage={1}
         slidesPerScroll={1}
-        animationSpeed={2000}
+        animationSpeed={3000}
         autoPlay={3000}
         infinite={true}
         offset={0}
