@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 const Vission = () => {
   return (
     <div class="main">
@@ -36,4 +36,4 @@ const Vission = () => {
     </div>
   );
 };
-export default Vission;
+export default Vission

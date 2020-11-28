@@ -1,5 +1,4 @@
 import React from "react";
-
 const WhyUs = () => {
   return (
     <div class="main">
@@ -33,4 +32,4 @@ const WhyUs = () => {
     </div>
   );
 };
-export default WhyUs;
+export default WhyUs

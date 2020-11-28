@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style.css";
-function Footer() {
+const Footer =() => {
   return (
     <div className="main-footer">
       <div className="container">
